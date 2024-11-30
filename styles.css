@@ -15,12 +15,12 @@ p, li, label {
 }
 
 a {
-    color: silver;
+    color: grey;
     text-decoration: none;
 }
 
 a:hover {
-    color: grey;
+    color: silver;
 }
 
 /* Header Styles */
@@ -105,6 +105,15 @@ form button:hover {
     color: green;
 }
 
+/* Table Styles */
+table {
+    text-align: left;
+}
+
+table th {
+    padding: 10px;
+}
+
 /* Footer Styles */
 footer {
     background-color: #505050;
@@ -115,4 +124,9 @@ footer {
 
 footer p {
     color: #E3E3E3;
+}
+
+footer a {
+    padding-left: 10px;
+    padding-right: 10px;
 }
